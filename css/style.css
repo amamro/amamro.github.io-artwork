@@ -1,0 +1,103 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav > ul > li > a {
+  font-size: 2em;
+  }
+
+  a:link {
+    color: green;
+    }
+
+  a:visited {
+    color: blue;
+    }
+
+  a:hover {
+    color: cyan;
+    background-color: green;
+  }
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: silver;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: red;
+}
+
+p:first-letter {
+  font-size: 3em;
+}
+
+P:first-line {
+  font-weight: bold;
+  color: black;
+  }
+
+.about {
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 4px red solid;
+  padding: 50px;
+  margin: 25px;
+  box-shadow: 10px 10px black;
+  background-color: rgba(255,0,0,0.5);
+  box-sizing: border-box;
+}
+
+
+.drawings {
+  float: left;
+  width: 1100px;
+  height: 300px;
+  border: 4px purple solid;
+  padding: 50px;
+  margin: 25px;
+  box-shadow: 10px 10px black;
+  background-color: rgba(255,0,255,0.5);
+  box-sizing: border-box;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: blue;
+}
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+  body {
+    background-color: blue;
+  }
+  img {
+    max-width: 100%;
+  }
+}
